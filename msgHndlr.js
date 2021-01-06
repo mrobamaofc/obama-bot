@@ -46,14 +46,14 @@ module.exports = msgHandler = async (client, message) => {
         const mess = {
             wait: '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar',
             error: {
-                St: '[❗] Kirim gambar dengan caption *!sticker* atau tag gambar yang sudah dikirim',
-                Qm: '[❗] Terjadi kesalahan, mungkin themenya tidak tersedia!',
-                Yt3: '[❗] Terjadi kesalahan, tidak dapat meng konversi ke mp3!',
-                Yt4: '[❗] Terjadi kesalahan, mungkin error di sebabkan oleh sistem.',
-                Ig: '[❗] Terjadi kesalahan, mungkin karena akunnya private',
-                Ki: '[❗] Bot tidak bisa mengeluarkan admin group!',
-                Ad: '[❗] Tidak dapat menambahkan target, mungkin karena di private',
-                Iv: '[❗] Link yang anda kirim tidak valid!'
+                St: '[❗] Envie a imagem com a legenda *!sticker* ou a tag de imagem que foi enviada',
+                Qm: '[❗] Ocorreu um erro, talvez o tema não esteja disponível!',
+                Yt3: '[❗] Algo deu errado, não foi possível converter para mp3!',
+                Yt4: '[❗] Ocorreu um erro, talvez o erro seja causado pelo sistema.',
+                Ig: '[❗] Ocorreu um erro, talvez porque a conta seja privada',
+                Ki: '[❗] O bot não pode demitir um administrador de grupo! não seja um danilo da vida',
+                Ad: '[❗] Incapaz de adicionar alvo, talvez porque seja privado',
+                Iv: '[❗] O link que você enviou é inválido!'
             }
         }
         const apiKey = 'API-KEY' // apikey you can get it at https://mhankbarbars.herokuapp.com/api
